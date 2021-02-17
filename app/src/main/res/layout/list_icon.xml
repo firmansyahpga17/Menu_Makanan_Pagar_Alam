@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="2dp"
+        android:src="@mipmap/icon"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="NAMA ITEM"
+        android:textColor="#FFD600"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="HARGA"
+        android:textColor="#FFEBEE"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
